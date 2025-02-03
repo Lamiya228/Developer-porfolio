@@ -28,6 +28,10 @@ padding:0 5%
    text-decoration:none ;
    font-size: 1.2em;
    padding:5px 30px;
-   border-radius: 5px;
-   
+    border-radius: 5px;}
+} 
+
+/* Dream Section CSS */
+.reverse{ 
+    flex-direction:row-reverse;
 }
