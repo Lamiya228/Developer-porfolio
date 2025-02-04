@@ -50,12 +50,14 @@ padding:0 5%
     background-position: center left;
 }
 #senior{
-    border-left:4px solid blue;
-    border-image:
+    border-left:4px solid;
+    border-image:linear-gradient(yellow,black);
+    border-image-slice: 1;
 }
 #junior {
-    border-left: 4px solid red;
-    border-image-slice: 100;
+    border-left: 4px solid;
+    border-image: linear-gradient(red,blue);
+    border-image-slice: 1;
 }
 .item {
     margin: 0 5%;
