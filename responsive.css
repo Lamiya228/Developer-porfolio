@@ -26,4 +26,26 @@
         padding:  0 10%;
         text-align: justify;
     }
+    /* dream section */
+    .dream-section{
+        display: flex;
+    flex-direction: column-reverse;
+    padding: 35px;
+    }
+    /* experiance section */
+.experiance-section{
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+}  
+.experiance-section h1{
+    text-align: center;
+}
+.items {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+gap: 20px;
+}
+
 }
