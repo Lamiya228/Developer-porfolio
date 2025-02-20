@@ -1,0 +1,29 @@
+@media( max-width:480px) {
+ .header-section {
+    display: flex;
+    flex-direction: column-reverse;
+    }
+    .half-width{
+        width: 100%;
+        padding: 0 0;
+    }
+    .right-contant {
+        width: 80%;
+        text-align: center;
+    }
+    .right-contant img {
+        text-align: center;
+    }
+
+    .left-contant{
+        text-align: center;
+    }
+    .left-contant {
+        margin: 0 px;
+    
+    }
+    .left-contant p {
+        padding:  0 10%;
+        text-align: justify;
+    }
+}

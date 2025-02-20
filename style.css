@@ -7,11 +7,11 @@ body{
     background-repeat: no-repeat;
 }
 .half-width {
-width:50%;
+width:100%;
 padding:0 5%
 }
 .right-contant img{
-   width:100%;
+    width:100%;
 }
 .flexiable-container{
     display:flex
