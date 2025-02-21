@@ -7,11 +7,17 @@ body{
     background-repeat: no-repeat;
 }
 .half-width {
-width:100%;
-padding:0 5%
+    width:100%;
+    padding:0 5%
 }
 .right-contant img{
     width:100%;
+    margin-top: 50px;
+    transition: 1s;
+}
+.right-contant img:hover{
+    transform: scale( 1);
+    
 }
 .flexiable-container{
     display:flex
@@ -28,12 +34,22 @@ padding:0 5%
    text-decoration:none ;
    font-size: 1.2em;
    padding:5px 30px;
-    border-radius: 5px;}
+   border-radius: 5px;
+   transition: 1s;
+   transition-duration: 1s;
+}
 } 
+.left-contant a:hover {
+    background-image:linear-gradient(rgb(173, 90, 214), rgb(255, 120, 71));
+    transform: scale(1.1);
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    box-shadow: 10px 10px 15px rgb(233, 102, 222);
+}
 
 /* Dream Section CSS */
 .dream-section {
-  background-image:url(images/dream-bg.png);
+   background-image:url(images/dream-bg.png);
    background-repeat:no-repeat;
    background-position: center right;
 
@@ -53,11 +69,27 @@ padding:0 5%
     border-left:4px solid;
     border-image:linear-gradient(yellow,black);
     border-image-slice: 1;
+    transition: 1s;
+    transition-duration: 1s;
+}
+#senior:hover{
+    transform: scale(1.1);
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    box-shadow: 10px 10px 15px rgb(235, 206, 60);
 }
 #junior {
     border-left: 4px solid;
     border-image: linear-gradient(red,blue);
     border-image-slice: 1;
+    transition: 1s;
+    transition-duration: 1s;
+}
+#junior:hover{
+    transform: scale(1.1);
+    transition-timing-function: ease-in-out;
+    transition-duration: 1s;
+    box-shadow: 10px 10px 15px rgb(233, 102, 222);
 }
 .item {
     margin: 0 5%;
